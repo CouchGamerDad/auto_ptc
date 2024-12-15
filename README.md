@@ -1,3 +1,5 @@
+
+
 AUTO PTC account creator
 A simple tool to create Pokémon Trainer Club (PTC) accounts in batches.
 
@@ -14,7 +16,7 @@ Streamlined email verification process.
 Installation
 To set it up:
 
-Clone the repository.
+Clone the repository, directly to C:\
 
 Run the following command to install dependencies:
 
@@ -30,6 +32,11 @@ pip install -r requirements.txt
 
 ## Usage
 
+configure the bat file the bat file
+or
+Send to desktop as shortcut, open properties on shortcut, set icon (icon in autoptc\auto_ptc\icons)
+
+or
 To start generating accounts, run:
 
 npm start
