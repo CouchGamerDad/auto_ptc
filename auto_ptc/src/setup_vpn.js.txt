@@ -1,0 +1,71 @@
+import puppeteer from 'puppeteer';
+
+/**
+ * Step 1: Setup TunnelBear VPN using Puppeteer and DevTools protocol.
+ *
+ * @param {string} destination - The desired VPN location (e.g., 'United States', 'Germany', etc.).
+ */
+async function setupVpn(destination) {
+  try {
+    console.log('Opening TunnelBear VPN extension...');
+
+    // Launch Chrome with the TunnelBear extension loaded
+    const browser = await puppeteer.launch({
+      headless: false,
+      args: [
+        '--disable-extensions-except=C:\\Users\\Platinum King\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 7\\Extensions\\omdakjcmkglenbhjadbccaookpfjihpa\\3.6.2_0',
+        '--load-extension=C:\\Users\\Platinum King\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 7\\Extensions\\omdakjcmkglenbhjadbccaookpfjihpa\\3.6.2_0',
+        '--disable-blink-features=AutomationControlled',
+        '--disable-background-timer-throttling'
+      ]
+    });
+
+    // Get all targets (including the extensions)
+    const targets = await browser.targets();
+    const extensionTarget = targets.find(
+      (target) => target.type() === 'background_page' && target.url().includes('omdakjcmkglenbhjadbccaookpfjihpa')
+    );
+
+    if (!extensionTarget) {
+      throw new Error('Failed to find TunnelBear extension background page or service worker.');
+    }
+
+    // Get the extension's background page
+    const backgroundPage = await extensionTarget.page();
+
+    if (!backgroundPage) {
+      throw new Error('Failed to attach to the TunnelBear extension background page.');
+    }
+
+    // DevTools Protocol to open the extension popup
+    const client = await backgroundPage.target().createCDPSession();
+
+    // Attempt to trigger the popup through Chrome's internal commands
+    await client.send('Runtime.evaluate', {
+      expression: `
+        (async function() {
+          const extensionId = 'omdakjcmkglenbhjadbccaookpfjihpa';
+          const views = chrome.extension.getViews({ type: 'popup' });
+          if (views.length > 0) {
+            const popup = views[0];
+            popup.document.querySelector('button[data-location="${destination}"]').click();
+            popup.document.querySelector('#connect-button').click();
+          } else {
+            throw new Error('Extension popup not found');
+          }
+        })();
+      `,
+      includeCommandLineAPI: true
+    });
+
+    // Wait for VPN to establish a connection
+    await backgroundPage.waitForTimeout(10000); // Adjust the delay as per how long it takes to connect
+    console.log('TunnelBear VPN is now active.');
+
+  } catch (err) {
+    console.error('Error setting up VPN:', err.message || err);
+    throw new Error('Failed to set up VPN.');
+  }
+}
+
+export default setupVpn;
