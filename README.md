@@ -22,19 +22,20 @@ npm install
 
 pip install -r requirements.txt
 
-copy.env_example, rename it to .env
-open .env set your path to chrome
-set what you want your usernames to start with, can put multiple
-set password
----
+#copy.env_example, rename it to .env
+#open .env set your path to chrome
+#set what you want your usernames to start with, can put multiple
+#set password
+
 
 ## Usage
 
 To start generating accounts, run:
 
-```bash
 npm start
-On first run, click to a new tab and install the email generator extension, close and re run
+
+#On first run, click to a new tab and install the email generator extension, close and re run
+
 Progress
 What's Working:
 Account creation: up to 5 accounts per hour with the current configuration.
