@@ -33,12 +33,15 @@ To set it up:
 2. Run the following command to install dependencies:
 
    ```bash
-rm -r -fo .\node_modules
 npm install
 
    ```
 pip install -r requirements.txt
 
+copy.env_example, rename it to .env
+open .env set your path to chrome
+set what you want your usernames to start with, can put multiple
+set password
 ---
 
 ## Usage

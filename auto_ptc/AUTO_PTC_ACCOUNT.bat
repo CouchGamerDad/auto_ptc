@@ -2,7 +2,7 @@
 :: Batch script to run the Python script as administrator
 
 :: Navigate to the script directory
-cd C:\ptcg\ptc-account-generator
+cd C:\autoptc\auto_ptc
 
 :: Check if the script is being run as admin
 net session >nul 2>&1

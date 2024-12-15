@@ -1,15 +1,88 @@
-2024-12-15T17:16:23.073Z - Error creating account: TargetCloseError: Waiting for selector `#copy-email-button` failed: Protocol error (Runtime.callFunctionOn): Target closed
-    at CallbackRegistry.clear (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:77:36)
-    at CdpCDPSession._onClosed (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/CDPSession.js:105:25)
-    at Connection.onMessage (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Connection.js:130:25)
-    at WebSocket.<anonymous> (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/node/NodeWebSocketTransport.js:38:32)
-    at callListener (C:\autoptc\auto_ptc\node_modules\ws\lib\event-target.js:290:14)
-    at WebSocket.onMessage (C:\autoptc\auto_ptc\node_modules\ws\lib\event-target.js:209:9)
-    at WebSocket.emit (node:events:519:28)
-    at Receiver.receiverOnMessage (C:\autoptc\auto_ptc\node_modules\ws\lib\websocket.js:1220:20)
-    at Receiver.emit (node:events:519:28)
-    at Immediate.<anonymous> (C:\autoptc\auto_ptc\node_modules\ws\lib\receiver.js:601:16)
-2024-12-15T17:16:26.084Z - Error creating account: Error: Waiting for selector `#generate-email-button` failed: waitForFunction failed: frame got detached.
+2024-12-15T17:25:58.238Z - Error creating account: TimeoutError: Waiting for selector `#copy-email-button` failed: Waiting failed: 30000ms exceeded
+    at new WaitTask (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/common/WaitTask.js:45:34)
+    at IsolatedWorld.waitForFunction (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Realm.js:22:26)
+    at Function.waitFor (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/common/QueryHandler.js:175:95)
+    at CdpFrame.waitForSelector (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Frame.js:529:21)
+    at CdpPage.waitForSelector (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:1369:20)
+    at generateEmail (file:///C:/autoptc/auto_ptc/src/auto_ptc.js:398:3)
+    at createAccount (file:///C:/autoptc/auto_ptc/src/auto_ptc.js:431:17)
+    at createSingleAccount (file:///C:/autoptc/auto_ptc/index.js:12:21)
+    at createMultipleAccounts (file:///C:/autoptc/auto_ptc/index.js:32:5)
+2024-12-15T17:25:58.279Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/autoptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:531:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-15T17:25:58.327Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/autoptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:531:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-15T17:25:58.365Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/autoptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:531:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-15T17:25:58.402Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/autoptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:531:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-15T17:29:21.304Z - Error creating account: TimeoutError: Waiting for selector `#copy-email-button` failed: Waiting failed: 30000ms exceeded
+    at new WaitTask (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/common/WaitTask.js:45:34)
+    at IsolatedWorld.waitForFunction (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Realm.js:22:26)
+    at Function.waitFor (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/common/QueryHandler.js:175:95)
+    at CdpFrame.waitForSelector (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Frame.js:529:21)
+    at CdpPage.waitForSelector (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:1369:20)
+    at generateEmail (file:///C:/autoptc/auto_ptc/src/auto_ptc.js:398:3)
+    at createAccount (file:///C:/autoptc/auto_ptc/src/auto_ptc.js:431:17)
+    at createSingleAccount (file:///C:/autoptc/auto_ptc/index.js:12:21)
+    at createMultipleAccounts (file:///C:/autoptc/auto_ptc/index.js:32:5)
+2024-12-15T17:29:21.342Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/autoptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:531:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-15T17:29:21.393Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/autoptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:531:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-15T17:29:21.433Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/autoptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:531:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-15T17:29:21.472Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/autoptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:531:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-15T17:31:35.543Z - Error creating account: Error: Waiting for selector `#generate-email-button` failed: waitForFunction failed: frame got detached.
     at IsolatedWorld.dispose (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Realm.js:37:39)
     at IsolatedWorld.[nodejs.dispose] (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Realm.js:41:14)
     at IsolatedWorld.[nodejs.dispose] (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/IsolatedWorld.js:153:29)
@@ -19,25 +92,22 @@
     at runNextTicks (node:internal/process/task_queues:60:5)
     at listOnTimeout (node:internal/timers:545:9)
     at processTimers (node:internal/timers:519:7)
-2024-12-15T17:16:31.664Z - Error creating account: TargetCloseError: Protocol error (Runtime.callFunctionOn): Target closed
-    at CallbackRegistry.clear (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/common/CallbackRegistry.js:77:36)
-    at CdpCDPSession._onClosed (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/CDPSession.js:105:25)
-    at Connection.onMessage (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Connection.js:130:25)
-    at WebSocket.<anonymous> (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/node/NodeWebSocketTransport.js:38:32)
-    at callListener (C:\autoptc\auto_ptc\node_modules\ws\lib\event-target.js:290:14)
-    at WebSocket.onMessage (C:\autoptc\auto_ptc\node_modules\ws\lib\event-target.js:209:9)
-    at WebSocket.emit (node:events:519:28)
-    at Receiver.receiverOnMessage (C:\autoptc\auto_ptc\node_modules\ws\lib\websocket.js:1220:20)
-    at Receiver.emit (node:events:519:28)
-    at Immediate.<anonymous> (C:\autoptc\auto_ptc\node_modules\ws\lib\receiver.js:601:16)
-2024-12-15T17:16:33.973Z - Error creating account: Error: Attempted to use detached Frame 'BDB3C6E23CFAD8512D80E91D52E2B796'.
+2024-12-15T17:31:37.857Z - Error creating account: Error: Attempted to use detached Frame '87B0FCAF8705209300AC3E09BA7C14C2'.
     at CdpFrame.<anonymous> (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/util/decorators.js:99:23)
     at CdpPage.waitForSelector (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:1369:43)
     at generateEmail (file:///C:/autoptc/auto_ptc/src/auto_ptc.js:374:16)
     at createAccount (file:///C:/autoptc/auto_ptc/src/auto_ptc.js:431:17)
     at createSingleAccount (file:///C:/autoptc/auto_ptc/index.js:12:21)
     at createMultipleAccounts (file:///C:/autoptc/auto_ptc/index.js:32:5)
-2024-12-15T17:16:36.286Z - Error creating account: Error: Attempted to use detached Frame '1961DAB92CEE89E970D8D5F6348A8037'.
+2024-12-15T17:31:38.034Z - Error creating account: [object Object]
+2024-12-15T17:31:40.329Z - Error creating account: Error: Attempted to use detached Frame '8BA2C63AC3447090482D63C5E55CB946'.
+    at CdpFrame.<anonymous> (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/util/decorators.js:99:23)
+    at CdpPage.waitForSelector (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:1369:43)
+    at generateEmail (file:///C:/autoptc/auto_ptc/src/auto_ptc.js:374:16)
+    at createAccount (file:///C:/autoptc/auto_ptc/src/auto_ptc.js:431:17)
+    at createSingleAccount (file:///C:/autoptc/auto_ptc/index.js:12:21)
+    at createMultipleAccounts (file:///C:/autoptc/auto_ptc/index.js:32:5)
+2024-12-15T17:31:42.653Z - Error creating account: Error: Attempted to use detached Frame '3DFAC72962544340A67A111215BF6F4C'.
     at CdpFrame.<anonymous> (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/util/decorators.js:99:23)
     at CdpPage.waitForSelector (file:///C:/autoptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:1369:43)
     at generateEmail (file:///C:/autoptc/auto_ptc/src/auto_ptc.js:374:16)
