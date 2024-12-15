@@ -6,7 +6,7 @@ This program allows me to generate PTC accounts, with the current setup achievin
 
 Note: I haven't yet implemented a proxy or VPN system—that's on my to-do list.
 
-YOU NEED CHROME INSTALLED and the below extension For generating emails, I use the Email Generator Chrome extension. You can find it here.
+YOU NEED CHROME INSTALLED and the below extension For generating emails, I use the Email Generator Chrome extension. You can find it here. (https://chromewebstore.google.com/detail/email-generator/nopbpkakbijkbhfcofpmfkdkdgbcjpec?hl=en&pli=1)
 
 Features
 Batch creation of accounts.
