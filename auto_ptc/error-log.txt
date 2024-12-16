@@ -114,3 +114,201 @@ TROUBLESHOOTING: https://pptr.dev/troubleshooting
     at createAccount (file:///C:/autoptc/auto_ptc/src/auto_ptc.js:431:17)
     at createSingleAccount (file:///C:/autoptc/auto_ptc/index.js:12:21)
     at createMultipleAccounts (file:///C:/autoptc/auto_ptc/index.js:32:5)
+2024-12-15T19:55:36.797Z - Error creating account: Error: Failed to launch the browser process!
+[1216/085536.198:ERROR:registration_protocol_win.cc(136)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[4256:11512:1216/085536.781:ERROR:process_singleton_win.cc(421)] Lock file can not be created! Error code: 5
+[4256:11512:1216/085536.781:ERROR:chrome_main_delegate.cc(559)] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at Interface.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at Interface.emit (node:events:529:35)
+    at Interface.close (node:internal/readline/interface:534:10)
+    at Socket.onend (node:internal/readline/interface:260:10)
+    at Socket.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-12-15T19:55:36.957Z - Error creating account: Error: Failed to launch the browser process!
+[1216/085536.864:ERROR:registration_protocol_win.cc(136)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[5592:13920:1216/085536.958:ERROR:process_singleton_win.cc(421)] Lock file can not be created! Error code: 5
+[5592:13920:1216/085536.958:ERROR:chrome_main_delegate.cc(559)] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at Interface.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at Interface.emit (node:events:529:35)
+    at Interface.close (node:internal/readline/interface:534:10)
+    at Socket.onend (node:internal/readline/interface:260:10)
+    at Socket.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-12-15T19:55:37.092Z - Error creating account: Error: Failed to launch the browser process!
+[1216/085537.014:ERROR:registration_protocol_win.cc(136)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[10892:9780:1216/085537.094:ERROR:process_singleton_win.cc(421)] Lock file can not be created! Error code: 5
+[10892:9780:1216/085537.094:ERROR:chrome_main_delegate.cc(559)] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at Interface.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at Interface.emit (node:events:529:35)
+    at Interface.close (node:internal/readline/interface:534:10)
+    at Socket.onend (node:internal/readline/interface:260:10)
+    at Socket.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-12-15T19:55:37.221Z - Error creating account: Error: Failed to launch the browser process!
+[1216/085537.149:ERROR:registration_protocol_win.cc(136)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[13028:7572:1216/085537.213:ERROR:process_singleton_win.cc(421)] Lock file can not be created! Error code: 5
+[13028:7572:1216/085537.213:ERROR:chrome_main_delegate.cc(559)] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at Interface.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at Interface.emit (node:events:529:35)
+    at Interface.close (node:internal/readline/interface:534:10)
+    at Socket.onend (node:internal/readline/interface:260:10)
+    at Socket.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-12-15T19:55:37.341Z - Error creating account: Error: Failed to launch the browser process!
+[1216/085537.264:ERROR:registration_protocol_win.cc(136)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[10584:14768:1216/085537.343:ERROR:process_singleton_win.cc(421)] Lock file can not be created! Error code: 5
+[10584:14768:1216/085537.343:ERROR:chrome_main_delegate.cc(559)] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at Interface.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at Interface.emit (node:events:529:35)
+    at Interface.close (node:internal/readline/interface:534:10)
+    at Socket.onend (node:internal/readline/interface:260:10)
+    at Socket.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-12-15T23:55:37.837Z - Error creating account: Error: net::ERR_BLOCKED_BY_CLIENT at chrome-extension://nopbpkakbijkbhfcofpmfkdkdgbcjpec/popup.html
+    at navigate (file:///C:/auto_ptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Frame.js:181:27)
+    at Function.race (file:///C:/auto_ptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/util/Deferred.js:33:20)
+    at CdpFrame.goto (file:///C:/auto_ptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Frame.js:147:25)
+    at CdpPage.goto (file:///C:/auto_ptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:570:20)
+    at generateEmail (file:///C:/auto_ptc/auto_ptc/src/auto_ptc.js:354:3)
+    at createAccount (file:///C:/auto_ptc/auto_ptc/src/auto_ptc.js:431:17)
+    at createSingleAccount (file:///C:/auto_ptc/auto_ptc/index.js:12:21)
+    at createMultipleAccounts (file:///C:/auto_ptc/auto_ptc/index.js:32:5)
+2024-12-15T23:55:38.017Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-15T23:55:38.140Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-15T23:55:38.265Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-15T23:55:38.373Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-16T00:00:23.027Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-16T00:00:23.156Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-16T00:00:23.270Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-16T00:00:23.397Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-16T00:00:23.516Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-16T00:11:42.399Z - Error creating account: TimeoutError: Waiting for selector `#copy-email-button` failed: Waiting failed: 30000ms exceeded
+    at new WaitTask (file:///C:/auto_ptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/common/WaitTask.js:45:34)
+    at IsolatedWorld.waitForFunction (file:///C:/auto_ptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Realm.js:22:26)
+    at Function.waitFor (file:///C:/auto_ptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/common/QueryHandler.js:175:95)
+    at CdpFrame.waitForSelector (file:///C:/auto_ptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Frame.js:529:21)
+    at CdpPage.waitForSelector (file:///C:/auto_ptc/auto_ptc/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:1369:20)
+    at generateEmail (file:///C:/auto_ptc/auto_ptc/src/auto_ptc.js:400:3)
+    at createAccount (file:///C:/auto_ptc/auto_ptc/src/auto_ptc.js:433:17)
+    at createSingleAccount (file:///C:/auto_ptc/auto_ptc/index.js:12:21)
+    at createMultipleAccounts (file:///C:/auto_ptc/auto_ptc/index.js:32:5)
+2024-12-16T00:11:42.524Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-16T00:11:42.635Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-16T00:11:42.750Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-12-16T00:11:42.864Z - Error creating account: Error: Failed to launch the browser process! undefined
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (file:///C:/auto_ptc/auto_ptc/node_modules/@puppeteer/browsers/lib/esm/launch.js:303:24)
+    at ChildProcess.emit (node:events:529:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)

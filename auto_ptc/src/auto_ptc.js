@@ -25,21 +25,23 @@ console.log('Password:', PASSWORD);
 async function setupBrowser() {
   const browser = await puppeteer.launch({
     headless: false,
-    defaultViewport: { width: 1200, height: 800 }, // Adjust as needed
-    executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', // Path to Chrome
-    userDataDir: CHROME_PROFILE_PATH, // Path to Profile 7
+    defaultViewport: { width: 1200, height: 800 }, // Fixed values remain here
+    executablePath: process.env.CHROME_EXECUTABLE_PATH, // From .env
+    userDataDir: process.env.CHROME_PROFILE_PATH, // From .env
     args: [
-      '--disable-extensions-except=C:\\Users\\Platinum King\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 7\\Extensions\\nopbpkakbijkbhfcofpmfkdkdgbcjpec\\1.2_0',  //C:\\Users\\Platinum King\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 7\\Extensions\\omdakjcmkglenbhjadbccaookpfjihpa\\3.6.2_0',
-      '--load-extension=C:\\Users\\Platinum King\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 7\\Extensions\\nopbpkakbijkbhfcofpmfkdkdgbcjpec\\1.2_0', //C:\\Users\\Platinum King\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 7\\Extensions\\omdakjcmkglenbhjadbccaookpfjihpa\\3.6.2_0',
-      '--disable-blink-features=AutomationControlled',
+      `--disable-extensions-except=${process.env.LOAD_EXTENSION}`,
+      `--load-extension=${process.env.LOAD_EXTENSION}`,
+      '--disable-blink-features=AutomationControlled', // These remain fixed
       '--disable-background-timer-throttling'
     ]
   });
+
   const page = await browser.newPage();
   page.setDefaultTimeout(100000); // Set global timeout to 100 seconds
   return browser;
 }
 // End of Browser Setup Function
+
 
 async function checkCurrentPage(ptcPage) {
   try {
